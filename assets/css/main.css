@@ -1,0 +1,35 @@
+body{
+	background-color:#9299D0;
+	font-family: 'Slabo 27px', serif;
+	font-size: 30px;
+}
+
+#menu-principal{
+	width:80%;
+	margin:0 auto;
+	background-color:whitesmoke;
+	
+}
+
+/*para hacer listas tipo ul pero sin puntitos*/
+#menu-principal ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+/*Para que se pongan una al lado de la otra*/
+#menu-principal li{
+	display:inline-block;
+}
+
+/*sacar linea de abajo, es un estilo del <a>*/
+#menu-principal ul li a {
+	text-decoration: none;
+	color: #484848;
+	padding: 10px 75px;
+	display:block;
+}
+
+input[name="mi-input"]{
+	border:5px solid blue;
+}
